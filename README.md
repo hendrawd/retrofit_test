@@ -1,6 +1,4 @@
-# Retrofit Test
-
-Test performance of Retrofit vs custom Volley
+# Retrofit VS Modified Volley
 
 I read many articles about both Volley vs Retrofit, but most of them are obsolete, so i decided to create a project to test both of them
 
