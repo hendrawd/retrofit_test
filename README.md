@@ -16,13 +16,15 @@ compile 'com.android.volley:volley:1.0.0'
 compile 'com.alibaba:fastjson:1.1.55.android'
 compile 'com.squareup.okhttp3:okhttp:3.5.0'
 ```
-### End point used
+## End point used
 https://api.github.com/users/{user}/repos
 
-### Test Results
-#### From 10 tries
-##### Average Execution Time for Retrofit : 1279 ms
-##### Average Execution Time for Volley : 1572 ms
+## Test Results
+From 10 tries
+
+***Average Execution Time for Retrofit : 1279 ms***
+
+***Average Execution Time for Volley : 1572 ms***
 
 But wait!
 
@@ -30,5 +32,5 @@ That is the result if i clear the application data or un-install the application
 
 If i don't do above action, Volley will win. Volley will cache our response, so it will be faster if re-used. The execution time will drop to average 164 ms!
 
-### Conclusion
+## Conclusion
 Retrofit has lower execution time, but with some modification, Volley can still compete with Retrofit. Volley has cache mechanism too that makes it faster for loading the same request. So which one should i use? It is up to you and depends on your requirements.
