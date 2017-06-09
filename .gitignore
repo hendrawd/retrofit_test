@@ -11,3 +11,5 @@ app/mirror
 ShortcutBadger/
 projectFilesBackup/
 .externalNativeBuild
+.idea/instapk.xml
+instapk.log*
