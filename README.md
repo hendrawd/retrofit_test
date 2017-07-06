@@ -1,6 +1,13 @@
 # Retrofit VS Modified Volley
 
-I read many articles about both Volley vs Retrofit, but most of them are obsolete, so i decided to create a project to test both of them
+I have read many articles about both Volley vs Retrofit, but most of them are obsolete, so i decided to create a project to test them directly.
+
+# Phone model used
+One Plus One(A001)
+
+# Android version used
+CyanogenMod version 14.1-20161123-NIGHTLY-bacon
+Marshmallow 7.1
 
 ## Library used
 
@@ -30,7 +37,10 @@ But wait!
 
 That is the result if i clear the application data or un-install the application before re-try the request.
 
-If i don't do above action, Volley will win. Volley will cache our response, so it will be faster if re-used. The execution time will drop to average 164 ms!
+If i don't do above action, Volley will win. Volley will cache our response in memory by default, while retrofit uses disk cache, so it will be faster if re-used. The execution time will drop to average 164 ms!
 
 ## Conclusion
-Retrofit has lower execution time, but with some modification, Volley can still compete with Retrofit. Volley has cache mechanism too that makes it faster for loading the same request. So which one should i use? It is up to you and depends on your requirements.
+Retrofit has lower execution time, but with some modifications, Volley can still compete with Retrofit. Volley has memory cache mechanism by default too that makes it faster for loading the same request. So which one should i use? It is up to you and depends on your requirements. Volley is easier to modif but harder to implement, while retrofit is easier to implement but harder to modif.
+
+More links:
+https://medium.com/@ali.muzaffar/is-retrofit-faster-than-volley-the-answer-may-surprise-you-4379bc589d7c
