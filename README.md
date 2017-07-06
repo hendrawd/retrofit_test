@@ -7,6 +7,7 @@ One Plus One(A001)
 
 # Android version used
 CyanogenMod version 14.1-20161123-NIGHTLY-bacon
+
 Marshmallow 7.1
 
 ## Library used
@@ -43,4 +44,5 @@ If i don't do above action, Volley will win. Volley will cache our response in m
 Retrofit has lower execution time, but with some modifications, Volley can still compete with Retrofit. Volley has memory cache mechanism by default too that makes it faster for loading the same request. So which one should i use? It is up to you and depends on your requirements. Volley is easier to modif but harder to implement, while retrofit is easier to implement but harder to modif.
 
 More links:
+
 https://medium.com/@ali.muzaffar/is-retrofit-faster-than-volley-the-answer-may-surprise-you-4379bc589d7c
