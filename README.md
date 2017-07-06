@@ -2,10 +2,10 @@
 
 I have read many articles about both Volley vs Retrofit, but most of them are obsolete, so i decided to create a project to test them directly.
 
-# Phone model used
+## Phone model used
 One Plus One(A001)
 
-# Android version used
+## Android version used
 CyanogenMod version 14.1-20161123-NIGHTLY-bacon
 
 Marshmallow 7.1
